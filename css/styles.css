@@ -1,0 +1,374 @@
+body{
+    position: relative;
+    text-align: center;
+}
+
+header{
+    margin:0px;
+    border: 0px;
+    position: sticky;
+    left:0px;
+    top:0px;
+    backdrop-filter: blur(30px);
+    box-shadow:0 20px 30px rgba(0,0,0,0.15);
+}
+
+.navbar-strip {
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+
+}
+
+#header-nav{
+    background-color: rgba(5, 5, 5, 0.7);
+    height:44px;
+}
+
+.navbar-brand{
+    margin: 0 40px 0 40px;
+}
+
+#logo-img{
+    height: 18px;
+    width: 18px;
+}
+
+#collapsable-nav{
+    color: white;
+    font-size: 0.78em;
+}
+
+.search-icon{
+    width: 18px;
+    height: 18px;
+}
+
+.store-icon{
+    width: 18px;
+    height: 18px;
+}
+
+#div1{
+    padding: 12.5px;
+    font-family: 'Candid Style', sans-serif;
+    font-size: 0.85em;
+    background-color: white;
+}
+
+#div2{
+    background:black;
+    padding:0;
+    border:0;
+    margin:0;
+    color:white;
+}
+
+#div2 h1{
+    font-size: 3.5em;
+}
+
+#div2p1{
+    border:0;
+    padding:0;
+    margin:0;
+    font-size: 1.7em;
+}
+
+#div2p2{
+    padding:0;
+    margin:0;
+    font-size: 1.3em;
+}
+
+#div2 img{
+    width: 1005px;
+}
+
+#div3{
+    border:0;
+    padding:0;
+    margin:0;
+}
+
+#div3 h1{
+    font-size: 3.5em;
+}
+
+#div3p1{
+    border:0;
+    padding:0;
+    margin:0;
+    font-size: 1.7em;
+}
+
+#div3p2{
+    padding:0;
+    margin:0;
+    font-size: 1.3em;
+}
+
+#div3 img{
+    width: 840px;
+}
+
+#div4{
+    background-image: url(/images/Swiped2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height:568px
+}
+
+#div4 p{
+    font-size: 1.35em;
+}
+#div4 a{
+    color: white;
+}
+
+#div5{
+    width:100%;
+    display:flex;
+    float: left;
+}
+
+#div5-1{
+    margin:10px;
+    padding:0;
+    border:0;
+    width:50%;
+    background-color: white;
+    flex:1;
+    align-items:center;
+    float: left;
+}
+
+#div5-1 h1{
+    margin:auto;
+    ;
+}
+
+#div5-2{
+    margin:10px;
+    padding:0;
+    border:0;
+    width:50%;
+    background-color: rgb(248, 248, 248);
+    float: left;
+}
+
+#div5-2 h1{
+    margin:auto;
+}
+
+#div5p1{
+    margin:auto;
+    font-size: 1.2em;
+}
+
+#div5p2{
+    margin:auto;
+    font-size: 1.1em;
+}
+
+#div5p3{
+    margin:auto;
+    font-size: 1.2em;
+}
+
+#div5p4{
+    margin:auto;
+    font-size: 1.1em;
+}
+
+#div5-1 img{
+    width: 580px;
+}
+
+#div5-2 img{
+    width: 410px;
+}
+
+#div6{
+    width:100%;
+    display:flex;
+    float:left;
+}
+
+#div6-1{
+    margin:10px;
+    padding:0;
+    border:0;
+    width:50%;
+    background-color: black;
+    flex:1;
+    align-items:center;
+    float: left;
+}
+
+#div6img1{
+    width:30px;
+}
+
+#div6 h1{
+    font-size: 2em;
+    color:white;
+}
+
+#div6p1{
+    color: red;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+#div6p2{
+    color: white;
+    font-size: 1.2em;
+}
+
+#div6img2{
+    width:480px;
+}
+
+#div6-2{
+    margin:10px;
+    padding:0;
+    border:0;
+    width:50%;
+    background-color: #f3f2f5;
+    float: left;
+}
+
+#div6-2 h1{
+    color:black;
+    margin:auto;
+    font-size: 2.3em;
+}
+
+#div6p4{
+    margin:auto;
+    font-size: 1.3em;
+}
+
+#div6p5{
+    margin:auto;
+    font-size: 1.1em;
+}
+
+#div7{
+    width:100%;
+    display:flex;
+    float:left;
+}
+
+#div7-1{
+    height:580px;
+    margin:10px;
+    padding:0;
+    border:0;
+    width:50%;
+    background: url(/images/iPad-Pro.jpg) center no-repeat;
+    flex:1;
+    align-items:center;
+    float: left;
+}
+
+#div7p1{
+    font-size:1.1em;
+}
+
+#div7-2{
+    margin:10px;
+    padding:0;
+    border:0;
+    width:50%;
+    background-color: #fbfbfd;
+    float: left;
+}
+
+#div7img1{
+    width:30px;
+}
+
+#div7p2{
+    font-size: 1.2em;
+}
+
+#div7p3{
+    font-size: 1.1em;
+}
+
+#div7img2{
+    width:630px;
+}
+
+#div8 img{
+    height: 520px;
+}
+
+#div9{
+    margin:0;
+    padding:13px;
+    background-color: #f5f5f7;
+    color:rgb(97, 97, 97);
+    font-size: 0.75em;
+}
+
+#div9-1{
+    width:980px;
+    margin:auto;
+    text-align: left;
+}
+
+#div9-1 a{
+    text-decoration: underline;
+    color: rgb(47, 47, 47);
+}
+
+.w-20{
+    width:20%;
+}
+
+#div9-2{
+    width:980px;
+    margin:auto;
+    text-align: left;
+}
+
+#div9-2 ul{
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+#div9-2 li{
+    padding: 3px 0 3px 0;
+    color:rgb(55, 55, 55);
+    font-size: 1.07em;
+}
+
+#div9-2 h6{
+    color:rgb(21, 21, 21);
+    font-size: 1.1em;
+}
+
+#div9-3{
+    width:980px;
+    margin: auto;
+    text-align: left;
+    font-size: 1.07em;
+}
+
+#span1{
+    float: right;
+    color: rgb(40, 40, 40);
+}
+
+#span2{
+    float:left;
+}
+
+#span3{
+    margin-left:300px;
+    color: rgb(26, 26, 26);
+}
